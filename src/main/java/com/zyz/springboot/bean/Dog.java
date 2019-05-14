@@ -10,6 +10,14 @@ public class Dog {
     public Dog() {
     }
 
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public void setName(String name) {
         this.name = name;
     }
