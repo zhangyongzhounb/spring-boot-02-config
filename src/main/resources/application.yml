@@ -3,7 +3,6 @@ server:
 
 
 person:
-    lastName: zhangsan
     age: 18
     boss: false
     birth: 2019/12/12
@@ -14,3 +13,4 @@ person:
     dog:
       name: 小狗
       age: 2
+    last-name: zhansan
