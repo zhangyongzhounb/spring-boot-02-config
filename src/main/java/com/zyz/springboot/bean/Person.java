@@ -1,7 +1,6 @@
 package com.zyz.springboot.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
 
@@ -19,7 +18,7 @@ import java.util.Map;
  *
  * Created by yongzhou.zhang on 2019/5/13.
  */
-@PropertySource(value={"classpath:person.properties"})
+//@PropertySource(value={"classpath:person.properties"})
 @Component
 @ConfigurationProperties(prefix = "person")
 @Validated
